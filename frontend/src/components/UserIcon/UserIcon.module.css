@@ -1,0 +1,147 @@
+/* ===== Estilo do container do usuário ===== */
+.profileIcon {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  gap: 10px;
+  padding: 10px 15px;
+  background: #ffffff; /* Fundo claro */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização dos botões de perfil e logout */
+.userButton,
+.signOutButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  transition: transform 0.2s;
+}
+
+.userButton:hover,
+.signOutButton:hover {
+  transform: scale(1.1);
+}
+
+/* Estilizando os ícones */
+.userIcon,
+.signOutIcon {
+  width: 2.5em; /* Tamanho adequado */
+  filter: brightness(0) saturate(100%) invert(18%) sepia(97%) saturate(1732%) hue-rotate(193deg) brightness(93%) contrast(95%);
+}
+
+/* Nome do usuário estilizado */
+.userName {
+  font-size: 1em;
+  font-weight: bold;
+  color: #004A8D;
+}
+
+/* ===== Estilos do Modal ===== */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  width: 350px;
+  color: black;
+  text-align: center;
+}
+
+.modalContent h2 {
+  color: #333;
+  margin-top: 0;
+  text-align: center;
+}
+
+.modalContent label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #004A8D;
+  text-align: left;
+}
+
+.modalContent input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.modalButtons button {
+  background-color: #004A8D;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.modalButtons button:hover {
+  background-color: #003366;
+  transform: scale(1.05);
+}
+
+/* Botão desativado */
+.modalButtons button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Mensagem de erro */
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  background: rgba(255, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Mensagem de sucesso */
+.successMessage {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  text-align: center;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+}

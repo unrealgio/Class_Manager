@@ -1,0 +1,13 @@
+.botaoNotas {
+    background-color: #425a99;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .botaoNotas:hover {
+    background-color: #35487b;
+  }
+  

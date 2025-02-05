@@ -1,0 +1,111 @@
+/* 🔹 Container Principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: calc(100% - 15em);
+  margin-left: 10px;
+  padding: 1em;
+}
+
+/* 🔹 Título */
+.title {
+  color: #004A8D;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* 🔹 Layout da seção principal */
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid rgb(193, 193, 193);
+  border-radius: 10px;
+  background: #F8F8F8;
+}
+
+/* 🔹 Estilo dos ciclos */
+.dciclo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 2px solid rgb(193, 193, 193);
+}
+
+/* 🔹 Nome do ciclo */
+.dciclo p {
+  font-weight: bold;
+  color: #003261;
+}
+
+/* 🔹 Container dos botões */
+.buttonContainer {
+  display: flex;
+  gap: 12px;
+}
+
+/* 🔹 Botões */
+.buttonFrequencia, .buttonLancar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  min-width: 180px;
+}
+
+/* 🔹 Botão de Frequência */
+.buttonFrequencia {
+  background: #F29100;
+  color: white;
+}
+
+.buttonFrequencia:hover {
+  background: #d68100;
+}
+
+/* 🔹 Botão de Lançar Notas */
+.buttonLancar {
+  background: #004A8D;
+  color: white;
+}
+
+.buttonLancar:hover {
+  background: #003366;
+}
+
+/* 🔹 Ícones */
+.buttonFrequencia i, .buttonLancar i {
+  font-size: 18px;
+}
+
+/* 🔹 Rodapé com o botão de voltar */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+/* Mensagem de carregamento */
+.loading {
+  color: #004A8D;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Mensagem quando não há ciclos */
+.noResults {
+  color: #555;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 10px;
+}

@@ -1,0 +1,95 @@
+/* 🔹 Layout Principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100% - 15em);
+    margin-left: 10px;
+    padding: 1em;
+  }
+  
+  /* 🔹 Título Principal */
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #004A99;
+    margin-bottom: 15px;
+  }
+  
+  /* 🔹 Seção das Legendas */
+  .legendaSection {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  /* 🔹 Título das Legendas */
+  .legendaTitle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    color: #004A8D;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* 🔹 Ícones */
+  .icon {
+    font-size: 30px;
+    color: #004A8D;
+    display: flex;
+    align-items: center;
+  }
+  
+  .iconBlue {
+    color: #004A8D; /* Garante que os ícones tenham a cor do sistema */
+  }
+  
+  /* 🔹 Ícones Pequenos para os Cards */
+  .iconSmall {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+  }
+  
+  /* 🔹 Grid para os Cards */
+  .legendaGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Sempre 2 colunas */
+    gap: 20px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* 🔹 Estilo dos Cards */
+  .legendaCard {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #003366;
+    border: 1px solid #ccc;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .legendaCard:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* 🔹 Estilo dos Títulos dos Cards */
+  .legendaCard h4 {
+    font-size: 18px;
+    color: #004A8D;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  

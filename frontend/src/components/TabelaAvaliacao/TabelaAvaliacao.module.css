@@ -1,0 +1,141 @@
+/* 🔹 Wrapper geral */
+.evaluationWrapper {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* 🔹 Container do Seletor */
+  .selectContainer {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* 🔹 Label do Select */
+  .selectLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #004A8D;
+    margin-bottom: 5px;
+  }
+  
+  /* 🔹 Estilização do Select */
+  .evaluationDropdown {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #004A8D;
+    font-size: 16px;
+  }
+  
+  /* 🔹 Responsividade da Tabela */
+  .tableContainer {
+    overflow-x: auto;
+    width: 100%;
+  }
+  
+  /* 🔹 Tabela */
+  .evaluationTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* 🔹 Ajuste da Coluna Nome */
+  .nameColumn {
+    width: 45%; /* 🔹 Aumenta a largura da coluna do nome */
+    min-width: 200px;
+    text-align: left;
+    align-items: left;
+    padding-left: 15px;
+  }
+  
+  /* 🔹 Cabeçalho da Tabela */
+  .evaluationTable th {
+    background-color: #004A8D;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  /* 🔹 Células da Tabela */
+  .evaluationTable td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #f1f5fc;
+    border-radius: 5px;
+  }
+  
+  /* 🔹 Alternância de Linhas */
+  .evaluationTable tr:nth-child(even) td {
+    background-color: #dce6f7;
+  }
+  
+  /* 🔹 Inputs da Tabela */
+  .inputField {
+    width: 90%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* 🔹 Removendo setas de incremento/decremento */
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* 🔹 Botões */
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* 🔹 Botão Voltar */
+  .back {
+    background-color: #f29100;
+    color: white;
+  }
+  
+  .back:hover {
+    background-color: #d98000;
+  }
+  
+  /* 🔹 Botão Salvar */
+  .save {
+    background-color: #004A8D;
+    color: white;
+  }
+  
+  .save:hover {
+    background-color: #003366;
+  }
+  

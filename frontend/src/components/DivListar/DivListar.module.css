@@ -1,0 +1,32 @@
+.divListar {
+    width: 65%;
+    margin: auto;
+  }
+  
+  .divListar h2 {
+    text-align: left;
+    font-size: 1.5em;
+    color: #004A8D;
+    margin-bottom: 1em;
+  }
+  
+  .divListar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .divListar ul li {
+    padding: 1.2em;
+    margin: 0.5em 0;
+    border: 1px solid #bfc4cc;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1em;
+  }
+  
+  .divListar ul li:hover {
+    background-color: #f0f0f0;
+  }
+  

@@ -1,0 +1,807 @@
+{
+  "dados": [
+    {
+      "id": "1",
+      "nome": "João Maria",
+      "email": "joao@rn.senac.br",
+      "tipo": "professor",
+      "turmas": [
+        {
+          "id": 161,
+          "cod": "161.2025.1",
+          "nome": "Advanced",
+          "cargaHoraria": 40,
+          "horaAula": 3,
+          "dataInicio": "2024-01-01",
+          "dataFim": "2024-03-01",
+          "unidadeOperativa": "Unidade Central",
+          "alunos": [
+            {
+              "id": "1",
+              "nome": "Aluno Lucas",
+              "email": "lucas@edum.rn.senac.br"
+            },
+            {
+              "id": "2",
+              "nome": "Aluno Maria",
+              "email": "maria@edum.rn.senac.br"
+            }
+          ],
+          "ciclos": [
+            {
+              "id": 1,
+              "nome": "Ciclo 1",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.3,
+                    "livroDeExercicios": 1.2,
+                    "interacao": 1.8,
+                    "progresso": 2.4,
+                    "expressao": 2.3
+                  },
+                  "resultadoFinal": 9
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.5,
+                    "precisao": 4.8,
+                    "vocabulario": 4.7,
+                    "pronuncia": 4.6
+                  },
+                  "resultadoFinal": 9.3
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9,
+                    "leitura": 8.5,
+                    "compreensao": 9,
+                    "escrita": 8
+                  },
+                  "resultadoFinal": 8.63
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nome": "Ciclo 1",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.3,
+                    "livroDeExercicios": 1.2,
+                    "interacao": 1.8,
+                    "progresso": 2.4,
+                    "expressao": 2.3
+                  },
+                  "resultadoFinal": 9
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.5,
+                    "precisao": 4.8,
+                    "vocabulario": 4.7,
+                    "pronuncia": 4.6
+                  },
+                  "resultadoFinal": 9.3
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9,
+                    "leitura": 8.5,
+                    "compreensao": 9,
+                    "escrita": 8
+                  },
+                  "resultadoFinal": 8.63
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nome": "Ciclo 2",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.3,
+                    "livroDeExercicios": 1.2,
+                    "interacao": 1.8,
+                    "progresso": 2.4,
+                    "expressao": 2.3
+                  },
+                  "resultadoFinal": 9
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.5,
+                    "precisao": 4.8,
+                    "vocabulario": 4.7,
+                    "pronuncia": 4.6
+                  },
+                  "resultadoFinal": 9.3
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9,
+                    "leitura": 8.5,
+                    "compreensao": 9,
+                    "escrita": 8
+                  },
+                  "resultadoFinal": 8.63
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 162,
+          "cod": "162.2025.1",
+          "nome": "Intermediate",
+          "cargaHoraria": 40,
+          "horaAula": 3,
+          "dataInicio": "2024-01-01",
+          "dataFim": "2024-03-01",
+          "unidadeOperativa": "Unidade Central",
+          "alunos": [
+            {
+              "id": "3",
+              "nome": "Aluno Pedro",
+              "email": "pedro@edum.rn.senac.br"
+            },
+            {
+              "id": "4",
+              "nome": "Aluna Sofia",
+              "email": "sofia@edum.rn.senac.br"
+            }
+          ],
+          "ciclos": [
+            {
+              "id": 1,
+              "nome": "Ciclo 1",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.5,
+                    "livroDeExercicios": 1.4,
+                    "interacao": 1.9,
+                    "progresso": 2.5,
+                    "expressao": 2.4
+                  },
+                  "resultadoFinal": 9.2
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.6,
+                    "precisao": 4.9,
+                    "vocabulario": 4.8,
+                    "pronuncia": 4.7
+                  },
+                  "resultadoFinal": 9.4
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9.1,
+                    "leitura": 8.6,
+                    "compreensao": 9.1,
+                    "escrita": 8.1
+                  },
+                  "resultadoFinal": 8.7
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nome": "Ciclo 2",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.3,
+                    "livroDeExercicios": 1.2,
+                    "interacao": 1.8,
+                    "progresso": 2.4,
+                    "expressao": 2.3
+                  },
+                  "resultadoFinal": 9
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.5,
+                    "precisao": 4.8,
+                    "vocabulario": 4.7,
+                    "pronuncia": 4.6
+                  },
+                  "resultadoFinal": 9.3
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9,
+                    "leitura": 8.5,
+                    "compreensao": 9,
+                    "escrita": 8
+                  },
+                  "resultadoFinal": 8.63
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "nome": "Ciclo 3",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.3,
+                    "livroDeExercicios": 1.2,
+                    "interacao": 1.8,
+                    "progresso": 2.4,
+                    "expressao": 2.3
+                  },
+                  "resultadoFinal": 9
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.5,
+                    "precisao": 4.8,
+                    "vocabulario": 4.7,
+                    "pronuncia": 4.6
+                  },
+                  "resultadoFinal": 9.3
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9,
+                    "leitura": 8.5,
+                    "compreensao": 9,
+                    "escrita": 8
+                  },
+                  "resultadoFinal": 8.63
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 163,
+          "cod": "163.2025.1",
+          "nome": "Beginner",
+          "cargaHoraria": 40,
+          "horaAula": 3,
+          "dataInicio": "2024-01-01",
+          "dataFim": "2024-03-01",
+          "unidadeOperativa": "Unidade Central",
+          "alunos": [
+            {
+              "id": "5",
+              "nome": "Aluno Rafael",
+              "email": "rafael@edum.rn.senac.br"
+            },
+            {
+              "id": "6",
+              "nome": "Aluna Beatriz",
+              "email": "beatriz@edum.rn.senac.br"
+            }
+          ],
+          "ciclos": [
+            {
+              "id": 1,
+              "nome": "Ciclo 1",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.2,
+                    "livroDeExercicios": 1.1,
+                    "interacao": 1.7,
+                    "progresso": 2.3,
+                    "expressao": 2.2
+                  },
+                  "resultadoFinal": 8.8
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.4,
+                    "precisao": 4.7,
+                    "vocabulario": 4.6,
+                    "pronuncia": 4.5
+                  },
+                  "resultadoFinal": 9.1
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 8.9,
+                    "leitura": 8.4,
+                    "compreensao": 8.9,
+                    "escrita": 7.9
+                  },
+                  "resultadoFinal": 8.5
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "nome": "Ciclo 2",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.3,
+                    "livroDeExercicios": 1.2,
+                    "interacao": 1.8,
+                    "progresso": 2.4,
+                    "expressao": 2.3
+                  },
+                  "resultadoFinal": 9
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.5,
+                    "precisao": 4.8,
+                    "vocabulario": 4.7,
+                    "pronuncia": 4.6
+                  },
+                  "resultadoFinal": 9.3
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9,
+                    "leitura": 8.5,
+                    "compreensao": 9,
+                    "escrita": 8
+                  },
+                  "resultadoFinal": 8.63
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 164,
+          "cod": "164.2025.1",
+          "nome": "Advanced",
+          "cargaHoraria": 40,
+          "horaAula": 3,
+          "dataInicio": "2024-01-01",
+          "dataFim": "2024-03-01",
+          "unidadeOperativa": "Unidade Central",
+          "alunos": [
+            {
+              "id": "7",
+              "nome": "Aluno Gabriel",
+              "email": "gabriel@edum.rn.senac.br"
+            },
+            {
+              "id": "8",
+              "nome": "Aluna Laura",
+              "email": "laura@edum.rn.senac.br"
+            }
+          ],
+          "ciclos": [
+            {
+              "id": 1,
+              "nome": "Ciclo 1",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.4,
+                    "livroDeExercicios": 1.3,
+                    "interacao": 1.9,
+                    "progresso": 2.5,
+                    "expressao": 2.4
+                  },
+                  "resultadoFinal": 9.1
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.7,
+                    "precisao": 4.9,
+                    "vocabulario": 4.8,
+                    "pronuncia": 4.7
+                  },
+                  "resultadoFinal": 9.5
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9.2,
+                    "leitura": 8.7,
+                    "compreensao": 9.2,
+                    "escrita": 8.2
+                  },
+                  "resultadoFinal": 8.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 165,
+          "cod": "165.2025.1",
+          "nome": "Intermediate",
+          "cargaHoraria": 40,
+          "horaAula": 3,
+          "dataInicio": "2024-01-01",
+          "dataFim": "2024-03-01",
+          "unidadeOperativa": "Unidade Central",
+          "alunos": [
+            {
+              "id": "9",
+              "nome": "Aluno Daniel",
+              "email": "daniel@edum.rn.senac.br"
+            },
+            {
+              "id": "10",
+              "nome": "Aluna Camila",
+              "email": "camila@edum.rn.senac.br"
+            }
+          ],
+          "ciclos": [
+            {
+              "id": 1,
+              "nome": "Ciclo 1",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.3,
+                    "livroDeExercicios": 1.2,
+                    "interacao": 1.8,
+                    "progresso": 2.4,
+                    "expressao": 2.3
+                  },
+                  "resultadoFinal": 9
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.5,
+                    "precisao": 4.8,
+                    "vocabulario": 4.7,
+                    "pronuncia": 4.6
+                  },
+                  "resultadoFinal": 9.3
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9,
+                    "leitura": 8.5,
+                    "compreensao": 9,
+                    "escrita": 8
+                  },
+                  "resultadoFinal": 8.63
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 166,
+          "cod": "166.2025.1",
+          "nome": "Beginner",
+          "cargaHoraria": 40,
+          "horaAula": 3,
+          "dataInicio": "2024-01-01",
+          "dataFim": "2024-03-01",
+          "unidadeOperativa": "Unidade Central",
+          "alunos": [
+            {
+              "id": "11",
+              "nome": "Aluno Thiago",
+              "email": "thiago@edum.rn.senac.br"
+            },
+            {
+              "id": "12",
+              "nome": "Aluna Isabela",
+              "email": "isabela@edum.rn.senac.br"
+            }
+          ],
+          "ciclos": [
+            {
+              "id": 1,
+              "nome": "Ciclo 1",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.1,
+                    "livroDeExercicios": 1.0,
+                    "interacao": 1.6,
+                    "progresso": 2.2,
+                    "expressao": 2.1
+                  },
+                  "resultadoFinal": 8.7
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.3,
+                    "precisao": 4.6,
+                    "vocabulario": 4.5,
+                    "pronuncia": 4.4
+                  },
+                  "resultadoFinal": 9.0
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 8.8,
+                    "leitura": 8.3,
+                    "compreensao": 8.8,
+                    "escrita": 7.8
+                  },
+                  "resultadoFinal": 8.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 167,
+          "cod": "167.2025.1",
+          "nome": "Advanced",
+          "cargaHoraria": 40,
+          "horaAula": 3,
+          "dataInicio": "2024-01-01",
+          "dataFim": "2024-03-01",
+          "unidadeOperativa": "Unidade Central",
+          "alunos": [
+            {
+              "id": "13",
+              "nome": "Aluno Bruno",
+              "email": "bruno@edum.rn.senac.br"
+            },
+            {
+              "id": "14",
+              "nome": "Aluna Larissa",
+              "email": "larissa@edum.rn.senac.br"
+            }
+          ],
+          "ciclos": [
+            {
+              "id": 1,
+              "nome": "Ciclo 1",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.5,
+                    "livroDeExercicios": 1.4,
+                    "interacao": 1.9,
+                    "progresso": 2.5,
+                    "expressao": 2.4
+                  },
+                  "resultadoFinal": 9.2
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.7,
+                    "precisao": 4.9,
+                    "vocabulario": 4.8,
+                    "pronuncia": 4.7
+                  },
+                  "resultadoFinal": 9.5
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9.2,
+                    "leitura": 8.7,
+                    "compreensao": 9.2,
+                    "escrita": 8.2
+                  },
+                  "resultadoFinal": 8.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 168,
+          "cod": "168.2025.1",
+          "nome": "Intermediate",
+          "cargaHoraria": 40,
+          "horaAula": 3,
+          "dataInicio": "2024-01-01",
+          "dataFim": "2024-03-01",
+          "unidadeOperativa": "Unidade Central",
+          "alunos": [
+            {
+              "id": "15",
+              "nome": "Aluno Eduardo",
+              "email": "eduardo@edum.rn.senac.br"
+            },
+            {
+              "id": "16",
+              "nome": "Aluna Fernanda",
+              "email": "fernanda@edum.rn.senac.br"
+            }
+          ],
+          "ciclos": [
+            {
+              "id": 1,
+              "nome": "Ciclo 1",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.4,
+                    "livroDeExercicios": 1.3,
+                    "interacao": 1.8,
+                    "progresso": 2.4,
+                    "expressao": 2.3
+                  },
+                  "resultadoFinal": 9.1
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.6,
+                    "precisao": 4.8,
+                    "vocabulario": 4.7,
+                    "pronuncia": 4.6
+                  },
+                  "resultadoFinal": 9.3
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9.1,
+                    "leitura": 8.6,
+                    "compreensao": 9.1,
+                    "escrita": 8.1
+                  },
+                  "resultadoFinal": 8.7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 169,
+          "cod": "169.2025.1",
+          "nome": "Beginner",
+          "cargaHoraria": 40,
+          "horaAula": 3,
+          "dataInicio": "2024-01-01",
+          "dataFim": "2024-03-01",
+          "unidadeOperativa": "Unidade Central",
+          "alunos": [
+            {
+              "id": "17",
+              "nome": "Aluno Gustavo",
+              "email": "gustavo@edum.rn.senac.br"
+            },
+            {
+              "id": "18",
+              "nome": "Aluna Juliana",
+              "email": "juliana@edum.rn.senac.br"
+            }
+          ],
+          "ciclos": [
+            {
+              "id": 1,
+              "nome": "Ciclo 1",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.2,
+                    "livroDeExercicios": 1.1,
+                    "interacao": 1.7,
+                    "progresso": 2.3,
+                    "expressao": 2.2
+                  },
+                  "resultadoFinal": 8.8
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.3,
+                    "precisao": 4.6,
+                    "vocabulario": 4.5,
+                    "pronuncia": 4.4
+                  },
+                  "resultadoFinal": 9.0
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 8.8,
+                    "leitura": 8.3,
+                    "compreensao": 8.8,
+                    "escrita": 7.8
+                  },
+                  "resultadoFinal": 8.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 170,
+          "cod": "170.2025.1",
+          "nome": "Advanced",
+          "cargaHoraria": 40,
+          "horaAula": 3,
+          "dataInicio": "2024-01-01",
+          "dataFim": "2024-03-01",
+          "unidadeOperativa": "Unidade Central",
+          "alunos": [
+            {
+              "id": "19",
+              "nome": "Aluno Carlos",
+              "email": "carlos@edum.rn.senac.br"
+            },
+            {
+              "id": "20",
+              "nome": "Aluna Patricia",
+              "email": "patricia@edum.rn.senac.br"
+            }
+          ],
+          "ciclos": [
+            {
+              "id": 1,
+              "nome": "Ciclo 1",
+              "avaliacoes": [
+                {
+                  "tipo": "Avaliação de Classe",
+                  "notas": {
+                    "tarefas": 1.4,
+                    "livroDeExercicios": 1.3,
+                    "interacao": 1.8,
+                    "progresso": 2.4,
+                    "expressao": 2.3
+                  },
+                  "resultadoFinal": 9.0
+                },
+                {
+                  "tipo": "Avaliação Oral",
+                  "notas": {
+                    "fluencia": 4.6,
+                    "precisao": 4.7,
+                    "vocabulario": 4.6,
+                    "pronuncia": 4.5
+                  },
+                  "resultadoFinal": 9.2
+                },
+                {
+                  "tipo": "Avaliação Escrita",
+                  "notas": {
+                    "usoDeIngles": 9.0,
+                    "leitura": 8.5,
+                    "compreensao": 9.0,
+                    "escrita": 8.0
+                  },
+                  "resultadoFinal": 8.6
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

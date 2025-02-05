@@ -1,0 +1,29 @@
+.breadcrumb {
+  font-size: 14px;
+  color: #004A8D;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.breadcrumb .link {
+  text-decoration: none;
+  color: #004A8D;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.breadcrumb .link:hover {
+  color: #F29100; /* Cor de destaque ao passar o mouse */
+}
+
+.breadcrumb .separator {
+  color: #004A8D;
+  font-weight: bold;
+}
+
+.breadcrumb .active {
+  color: #F29100; /* Último item destacado */
+  font-weight: bold;
+}

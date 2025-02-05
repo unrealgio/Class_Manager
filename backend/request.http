@@ -1,0 +1,159 @@
+
+### 1. Usuário
+
+# 1.1 - Login do Usuário Aluno ok
+POST http://localhost:3001/api/usuarios/login
+Content-Type: application/json
+
+{
+  "email": "joao@rn.senac.br",
+  "senha": "BemVindo!"
+}
+
+###
+
+# Alterar Senha no Primeiro Acesso Aluno ok
+PATCH http://localhost:3001/api/usuarios/senha
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidGlwbyI6ImFsdW5vIiwiaWF0IjoxNzM4Mjc2MjY1LCJleHAiOjE3MzgzMDUwNjV9.ZPrn1buM3aA2lrAYT58o2CGg4UQIMwC9gAMZWiIWA7w
+
+{
+  "novaSenha": "BemVindo!"
+}
+
+###
+
+# 1.1 - Login do Usuário Professor ok
+POST http://localhost:3001/api/usuarios/login
+Content-Type: application/json
+
+{
+  "email": "joao@rn.senac.br",
+  "senha": "BemVindo!"
+}
+
+###
+
+# Alterar Senha no Primeiro Acesso Professor ok
+PATCH http://localhost:3001/api/usuarios/senha
+Content-Type: application/json
+Authorization: Bearer 
+
+{
+  "novaSenha": "NovaSenha"
+}
+
+###
+
+# Obter Perfil do Usuário Autenticado Aluno ok
+GET http://localhost:3001/api/usuarios/perfil
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidGlwbyI6ImFsdW5vIiwiaWF0IjoxNzM4Mjc2MjY1LCJleHAiOjE3MzgzMDUwNjV9.ZPrn1buM3aA2lrAYT58o2CGg4UQIMwC9gAMZWiIWA7w
+
+###
+
+# Obter Perfil do Usuário Autenticado Professor ok
+GET http://localhost:3001/api/usuarios/perfil
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidGlwbyI6InByb2Zlc3NvciIsIm5vbWUiOiJKb8OjbyBNYXJpYSIsImlhdCI6MTczODM1ODk1NywiZXhwIjoxNzM4Mzg3NzU3fQ.BZ8rtb6lD790R2YKIq5ukYaXidTuB5IskT9BgH91u2Q
+
+###
+
+# Obter Turmas do Professor ok
+GET http://localhost:3001/api/usuarios/professor/turmas
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidGlwbyI6InByb2Zlc3NvciIsIm5vbWUiOiJKb8OjbyBNYXJpYSIsImlhdCI6MTczODM1ODk1NywiZXhwIjoxNzM4Mzg3NzU3fQ.BZ8rtb6lD790R2YKIq5ukYaXidTuB5IskT9BgH91u2Q
+###
+
+# Listar Turmas do Aluno ok
+GET http://localhost:3001/api/usuarios/aluno/turmas
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidGlwbyI6InByb2Zlc3NvciIsIm5vbWUiOiJKb8OjbyBNYXJpYSIsImlhdCI6MTczODM1ODk1NywiZXhwIjoxNzM4Mzg3NzU3fQ.BZ8rtb6lD790R2YKIq5ukYaXidTuB5IskT9BgH91u2Q
+
+###
+
+# Listar Turmas do Aluno ok
+GET http://localhost:3001/api/ciclos/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidGlwbyI6InByb2Zlc3NvciIsIm5vbWUiOiJKb8OjbyBNYXJpYSIsImlhdCI6MTczODM1NjAwNCwiZXhwIjoxNzM4Mzg0ODA0fQ.0XHTzN9RgoOydiyJu2M_5cZIV75bLgM7RgkTvgv770Y
+
+###
+
+# Listar Ciclos do Aluno ok
+GET http://localhost:3001/api/usuarios/aluno/ciclos
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidGlwbyI6InByb2Zlc3NvciIsIm5vbWUiOiJKb8OjbyBNYXJpYSIsImlhdCI6MTczODM1NTc2OSwiZXhwIjoxNzM4Mzg0NTY5fQ._qrRdlRe37YvNDbKB7ISXujBa2ArLzM4ETEQWvgR7bg
+
+###
+
+# Listar Notas do Aluno ok
+GET http://localhost:3001/api/usuarios/aluno/notas
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidGlwbyI6InByb2Zlc3NvciIsIm5vbWUiOiJKb8OjbyBNYXJpYSIsImlhdCI6MTczODM1ODk1NywiZXhwIjoxNzM4Mzg3NzU3fQ.BZ8rtb6lD790R2YKIq5ukYaXidTuB5IskT9BgH91u2Q
+
+
+###
+
+### Ciclos
+
+# Listar Ciclos de uma Turma ok
+GET http://localhost:3001/api/ciclos/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidGlwbyI6InByb2Zlc3NvciIsIm5vbWUiOiJKb8OjbyBNYXJpYSIsImlhdCI6MTczODM1ODk1NywiZXhwIjoxNzM4Mzg3NzU3fQ.BZ8rtb6lD790R2YKIq5ukYaXidTuB5IskT9BgH91u2Q
+
+###
+
+### Avaliações
+
+# Criar Nota de um Aluno (somente professor) ok 
+POST http://localhost:3001/api/avaliacao
+Content-Type: application/json
+Authorization: Bearer 
+
+{
+  "cicloId": 1,
+  "alunoId": 2,
+  "tipo": "escrita",
+  "criterios": {
+    "usoDeIngles": 8,
+    "usoDeLeitura": 9,
+    "usoDeInterpretacao": 7,
+    "usoDeEscrita": 10
+  }
+}
+
+###
+
+# Editar Nota de um Aluno (somente professor) ok
+PATCH http://localhost:3001/api/avaliacao/2
+Content-Type: application/json
+Authorization: Bearer 
+
+{
+  "criterios": {
+    "usoDeIngles": 9,
+    "usoDeLeitura": 9,
+    "usoDeInterpretacao": 8,
+    "usoDeEscrita": 10
+  }
+}
+
+###
+
+# Listar Notas dos Alunos em uma Turma ok
+GET http://localhost:3001/api/avaliacao/1/notas
+Authorization: Bearer 
+###
+
+### Frequência
+
+# Obter Frequências de um Usuário ok
+GET http://localhost:3001/api/frequencia/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidGlwbyI6InByb2Zlc3NvciIsIm5vbWUiOiJKb8OjbyBNYXJpYSIsImlhdCI6MTczODM1ODk1NywiZXhwIjoxNzM4Mzg3NzU3fQ.BZ8rtb6lD790R2YKIq5ukYaXidTuB5IskT9BgH91u2Q
+
+###
+
+# Criar Frequência (somente professor) ok
+POST http://localhost:3001/api/frequencia
+Content-Type: application/json
+Authorization: Bearer 
+
+{
+  "turmaId": 1,
+  "data": "2025-02-10",
+  "alunosPresencas": [
+    { "alunoId": 1, "presenca": 2 }
+  ]
+}

@@ -1,0 +1,119 @@
+.asideMenu {
+  background-color: #004A8D;
+  color: white;
+  width: 15em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.asideMenu ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  text-align: center;
+}
+
+/* 🔹 Efeito Hover */
+.menuItem:hover {
+  background-color: #003366;
+}
+
+/* 🔹 Ícones do Menu */
+.menuIcon {
+  width: 3.5em;
+  height: 3.5em;
+  margin-bottom: 0.5em;
+}
+
+/* 🔹 Ajuste para os Links */
+.menuLink {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* 🔥 Efeito ao Passar o Mouse */
+.menuLink:hover {
+  transform: scale(1.05);
+}
+
+/* 🔥 Estilo para o Item Ativo */
+.active {
+  background-color: #F29100; /* 🔹 Destaque para a opção ativa */
+  color: white;
+  font-weight: bold;
+}
+
+.active .menuIcon {
+  filter: brightness(0) invert(1); /* 🔹 Deixa os ícones brancos quando ativo */
+}
+
+/* 🔹 Texto dentro do Menu */
+.menuItem span {
+  font-size: 1em;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+  .asideMenu {
+    width: 10em;
+    padding: 0.5em;
+  }
+
+  .menuIcon {
+    width: 2.5em;
+    height: 2.5em;
+  }
+
+  .menuItem {
+    padding: 0.5em;
+  }
+
+  .menuLink {
+    padding: 0.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .asideMenu {
+    width: 8em;
+    padding: 0.5em;
+  }
+
+  .menuIcon {
+    width: 2em;
+    height: 2em;
+  }
+
+  .menuItem {
+    padding: 0.5em;
+  }
+
+  .menuLink {
+    padding: 0.5em;
+  }
+}

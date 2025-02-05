@@ -1,0 +1,28 @@
+.paginacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  gap: 10px;
+  width: fit-content;
+}
+
+.pageButton {
+  padding: 10px 15px;
+  background-color: #004A8D;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.pageButton:hover {
+  background-color: #003366;
+}
+
+/* Botão ativo */
+.activePage {
+  background-color: #f29100;
+  font-weight: bold;
+}

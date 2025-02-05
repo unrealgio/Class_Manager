@@ -1,0 +1,71 @@
+/* 🔹 Ajuste do Container Geral */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 🔹 Mantém o alinhamento à esquerda */
+    width: calc(100% - 15em); /* 🔹 Ocupar espaço ao lado do Aside */
+    margin-left: 10px;
+    padding: 1em;
+    height: 100vh; /* 🔹 Ajuste para ocupar toda a altura da tela */
+  }
+  
+  /* 🔹 Mantendo a posição do Breadcrumb */
+  .breadcrumb {
+    width: 100%;
+    margin-bottom: 20px; /* 🔹 Espaço entre o breadcrumb e os cards */
+    align-self: flex-start;
+  }
+  
+  /* 🔹 Centralizando os Cards exatamente no meio */
+  .content {
+    display: flex;
+    justify-content: center; /* 🔹 Centraliza os cards horizontalmente */
+    align-items: center; /* 🔹 Centraliza os cards verticalmente */
+    flex-grow: 1; /* 🔹 Faz os cards ocuparem o espaço disponível */
+    gap: 40px; /* 🔹 Espaço entre os cards */
+    width: 100%;
+    max-width: 900px; /* 🔹 Mantém um tamanho ideal */
+    margin: auto; /* 🔹 Centraliza a `.content` automaticamente */
+    height: 100%; /* 🔹 Ocupa toda a altura do miolo */
+  }
+  
+  /* 🔹 Cartões de Ajuda */
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #184785;
+    color: white;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* 🔹 Animação ao passar o mouse */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    background-color: #143b6d;
+  }
+  
+  /* 🔹 Ícones */
+  .icon {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  /* 🔹 Ajuste Responsivo */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

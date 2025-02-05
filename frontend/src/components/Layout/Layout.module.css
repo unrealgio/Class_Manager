@@ -1,0 +1,73 @@
+/* Estilos gerais do layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Área principal: Aside + Conteúdo */
+.mainLayout {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Menu lateral fixo */
+.aside-menu {
+  width: 250px;
+  background-color: #004A8D;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Conteúdo principal */
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media Queries para diferentes tamanhos de tela */
+@media (max-width: 1200px) {
+  .aside-menu {
+    width: 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .aside-menu {
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainLayout {
+    flex-direction: column;
+  }
+
+  .aside-menu {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+  }
+
+  .content {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .aside-menu {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .content {
+    padding: 5px;
+  }
+}
